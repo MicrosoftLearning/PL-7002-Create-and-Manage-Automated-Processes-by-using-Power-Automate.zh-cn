@@ -30,9 +30,9 @@ lab:
 
 ### 任务 1.1 - 选择模板
 
-1. 导航到 Power Automate 门户 <https://make.powerautomate.com>。
+1. 导航到 Power Automate 门户 `https://make.powerautomate.com`。
 
-1. 如果显示了“欢迎使用 Power Automate”弹出对话框，请选择“开始使用”。********
+1. 如果显示了“**欢迎使用 Power Automate**”弹出对话框，请选择“**开始**”。
 
 1. 选择“Dev One”环境。****
 
@@ -42,7 +42,7 @@ lab:
 
 1. 选择“按钮”选项卡。****
 
-1. 在搜索字段中输入“`location`”
+1. 在“**搜索模板**”字段中，输入“`location`”。
 
     ![流模板的屏幕截图。](../media/flow-templates.png)
 
@@ -56,9 +56,10 @@ lab:
 
 1. 选择**创建流**。
 
-1. 如果显示了“你的流已准备就绪”弹出对话框，请选择“不再向我显示此信息”，然后选择“明白”。************
+1. 如果显示了“**流已准备就绪**”弹出对话框，请选择“**不再显示此信息**”，然后选择“**知道了**”。
 
     ![流详细信息的屏幕截图。](../media/flow-details.png)
+
 
 ### 任务 1.2 - 运行流
 
@@ -74,6 +75,7 @@ lab:
 
     ![流运行历史记录的屏幕截图。](../media/run-history.png)
 
+
 ### 任务 1.3 - 查看流
 
 1. 选择流运行历史记录中的日期和时间。
@@ -88,17 +90,18 @@ lab:
 
     ![流运行步骤输出的屏幕截图。](../media/flow-run-step.png)
 
-1. 选择**编辑**
+1. 选择“编辑”  。
 
 1. 选择“条件”步骤以展开流步骤。****
 
-1. 选择“展开条件”****
+1. 选择**展开条件**。
 
 1. 选择某个“发送推送通知”步骤。****
 
 1. 选择“流检查器”。**** 应该不会有错误或警告。
 
 1. 关闭“流检查器”窗格。****
+
 
 ### 任务 1.4 - 测试流
 
@@ -110,17 +113,18 @@ lab:
 
 1. 从命令栏左上角选择 <- 后退按钮。****
 
+
 ## 练习 2 - 使用 CoPilot 创建云端流
 
 ### 任务 2.1 - 输入提示
 
-1. 导航到 Power Automate 门户 <https://make.powerautomate.com>。
+1. 导航到 Power Automate 门户 `https://make.powerautomate.com`。 
 
 1. 确保你位于“Dev One”环境中。****
 
 1. 从左侧菜单中选择“主页”选项卡。****
 
-1. 在“让我们自动化一些操作。它应该做什么?”下，输入“`Every day send me an email with the daily summary from MSN Weather`”。
+1. 在“**让我们自动化一些操作。它应该做什么?**”下，输入“`Every day send me an email with the daily summary from MSN Weather`”。
 
     ![copilot 提示的屏幕截图。](../media/copilot-prompt.png)
 
@@ -134,29 +138,29 @@ lab:
 
     ![Copilot 创建的流的屏幕截图。](../media/copilot-flow.png)
 
+
 ### 任务 2.2 - 配置流步骤
 
 1. 选择“获取今日预报”步骤****。
 
-    ![流步骤参数的屏幕截图。](../media/flow-step-parameters.png)
-
 1. 为“位置”输入“`Seattle`”。****
 
-1. 选择“X”以清除“单位”，然后在下拉列表中选择“英制”************
+1. 选择“**X**”以清除“**单位**”，然后在下拉列表中选择“**英制**”。
 
-1. 选择**保存**
+    ![流步骤参数的屏幕截图。](../media/flow-step-parameters.png)
 
-1. 测试流。
+1. 选择“保存”。
 
-1. 选择“测试”，选择“手动”，然后选择“测试”。************
+1. 要测试流，请选择“**测试**”，选择“**手动**”，然后选择“**运行流**”。 选择“完成”  。
 
 1. 从命令栏左上角选择 <- 后退按钮。****
+
 
 ## 练习 3 - 从空白创建云端流
 
 ### 任务 3.1 - 创建触发器
 
-1. 导航到 Power Automate 门户 <https://make.powerautomate.com>。
+1. 导航到 Power Automate 门户 `https://make.powerautomate.com`。
 
 1. 确保你位于 **Dev One** 环境中。
 
@@ -166,13 +170,14 @@ lab:
 
 1. 输入 `Important email` 作为流名称。
 
-1. 在“搜索所有筛选器”中输入 `email`。
+1. 在“**搜索所有触发器**”字段中，输入“`email arrives`”。
 
 1. 选择“新电子邮件到达时(V3)”。****
 
     ![生成自动化流对话框的屏幕截图。](../media/build-automated-flow.png)
 
 1. 选择**创建**。
+
 
 ### 任务 3.2 - 配置触发器
 
@@ -187,6 +192,7 @@ lab:
 1. 为“重要性”选择“高”。********
 
 1. 为“文件夹”选择“收件箱”。********
+
 
 ### 任务 3.3 - 添加操作
 
@@ -206,7 +212,7 @@ lab:
 
 1. 为“接收方”输入你的租户用户 ID。****
 
-1. 选择“通知文本”字段，然后选择“动态内容”图标。****
+1. 在“**通知文本**”字段中输入“`/`”，然后选择“**插入动态内容**”。
 
     ![动态内容的屏幕截图。](../media/flow-dynamic-content.png)
 
@@ -220,11 +226,12 @@ lab:
 
 1. 从命令栏左上角选择 <- 后退按钮。****
 
+
 ## 练习 4 - 监视流
 
 ### 任务 4.1 - 云端流活动
 
-1. 导航到 Power Automate 门户 <https://make.powerautomate.com>。
+1. 导航到 Power Automate 门户 `https://make.powerautomate.com`。
 
 1. 确保你位于“Dev One”环境中。****
 
@@ -237,3 +244,4 @@ lab:
 1. 从左侧菜单中选择“云端流活动”选项卡。****
 
     ![云端流活动的屏幕截图。](../media/cloud-flow-activity.png)
+
