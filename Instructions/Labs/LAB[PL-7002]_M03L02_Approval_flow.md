@@ -39,7 +39,7 @@ lab:
 
 1. 输入 `Task approval` 作为流名称。
 
-1. 在搜索中输入“`SharePoint`”。
+1. 在“搜索所有触发器”中输入“`SharePoint`”。
 
 1. 选择“当创建项时”。****
 
@@ -119,7 +119,7 @@ lab:
 
 1. 在搜索中输入“`update item`”。
 
-1. 在 SharePoint 下选择“更新项”。********
+1. 在“**SharePoint**”下选择“**更新项**”。
 
 1. 选择“**更新项目**”步骤名称并输入“`Set task to approved`”。
 
@@ -143,7 +143,7 @@ lab:
 
 1. 在搜索中输入“`update item`”。
 
-1. 在 SharePoint 下选择“更新项”。********
+1. 在“**SharePoint**”下选择“**更新项**”。
 
 1. 选择“**更新项目 1**”步骤名称并输入 `Set task to declined`。
 
@@ -174,9 +174,9 @@ lab:
 
 1. 导航到 SharePoint 网站并选择“任务”列表。****
 
-1. 选择“+ 新建”并输入以下数据，然后选择“保存”：********
+1. 选择“**+ 添加新项**”并输入以下数据，然后选择“**保存**”：
 
-   1. 标题=`Approval test`
+   1. Title=`Approval test`
    1. 说明=`Test`
    1. 所有者名称=`MOD Administrator`
    1. 截止时间=**今天**

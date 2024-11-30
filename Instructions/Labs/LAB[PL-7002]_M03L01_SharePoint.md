@@ -109,25 +109,25 @@ lab:
 
     ![SharePoint 任务列表的屏幕截图。](../media/tasks-sharepoint-list.png)
 
-1. 选择“**+ 新建**”并输入以下数据，然后选择“**保存**”：
+1. 选择“**+ 添加新项**”并输入以下数据，然后选择“**保存**”：
 
-   1. 标题=`Contact Jon`
+   1. Title=`Contact Jon`
    1. 说明=`Call or email`
    1. 所有者名称=`MOD Administrator`
    1. 截止时间=**昨天**
    1. 审批状态=**已拒绝**
 
-1. 选择“**+ 新建**”并输入以下数据，然后选择“**保存**”：
+1. 选择“**+ 添加新项**”并输入以下数据，然后选择“**保存**”：
 
-   1. 标题=`Create Quote`
+   1. Title=`Create Quote`
    1. 说明=`No discount`
    1. 所有者名称=`MOD Administrator`
    1. 截止时间=**今天**
    1. 审批状态=**已批准**
 
-1. 选择“**+ 新建**”并输入以下数据，然后选择“**保存**”：
+1. 选择“**+ 添加新项**”并输入以下数据，然后选择“**保存**”：
 
-   1. 标题=`Visit Jim`
+   1. Title=`Visit Jim`
    1. 说明=`First visit`
    1. 所有者名称=`MOD Administrator`
    1. 截止时间=**明天**
