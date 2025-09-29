@@ -31,6 +31,8 @@ lab:
 
 1. 选择浏览器窗口左上角的“**应用启动器**”，然后选择“**SharePoint**”。
 
+    ![用于启动 SharePoint 的应用启动器屏幕截图。](../media/app-launcher.png)
+
 1. 如果显示“**欢迎使用 SharePoint 起始页**”弹出对话框，请选择“**X**”以关闭对话框。
 
 1. 在 SharePoint 中，选择“**+ 创建网站**”。
@@ -100,7 +102,6 @@ lab:
 
 1. 复制 SharePoint 网站的 URL 的第一部分，例如`https://m365x99999999.sharepoint.com/sites/PowerAutomate/`
 
-
 ## 练习 2 - 添加数据 SharePoint 列表
 
 ### 任务 2.1 - 添加数据
@@ -134,4 +135,3 @@ lab:
    1. 审批状态=**新**
 
     ![SharePoint 任务数据的屏幕截图。](../media/tasks-data.png)
-
